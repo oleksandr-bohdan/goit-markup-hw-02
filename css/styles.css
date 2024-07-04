@@ -50,22 +50,39 @@ button {
   letter-spacing: 4%;
 }
 
-.logo {
+/* HEADER */
+
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
   letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-span {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.16667;
   text-transform: uppercase;
   color: #2e2f42;
 }
-.span-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: underline;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: #404bbf;
 }
 .contact-email:hover,
 .contact-email:focus {
@@ -77,4 +94,12 @@ button {
 .contact-tel:focus {
   background-color: #404bbf;
   color: #404bbf;
+}
+
+.nav-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
