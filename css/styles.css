@@ -1,0 +1,79 @@
+/* FONTS */
+/* .raleway-<uniquifier > {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+/* styles */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.span-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.contact-email:hover,
+.contact-email:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
