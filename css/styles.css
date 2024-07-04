@@ -78,6 +78,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: underline;
+  font-style: normal;
 }
 
 .header-logo:hover,
@@ -110,4 +111,28 @@ button {
 }
 .nav-content:focus{
   color: #404bbf;
+}
+
+/* SECTION-1 */
+.hero{
+  background-color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+.hero-content{
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.hero-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+.hero-button{
+  
 }
