@@ -241,9 +241,44 @@ button {
   color: #2e2f42;
 }
 .o-p-dev {
-  font-weight: 400;
+  font-weight: regular;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/* footer */
+
+.footer-main {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.span-footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-p {
+  color: #f4f4fd;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
