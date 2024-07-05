@@ -38,10 +38,6 @@ ul {
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -71,6 +67,30 @@ button {
   color: #2e2f42;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+  color: #404bbf;
+}
+
+/* NAV */
+
+.nav-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-content:hover {
+  color: #404bbf;
+}
+.nav-content:focus {
+  color: #404bbf;
+}
+
+/* ADRESS */
+
 .contact {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -82,65 +102,39 @@ button {
   font-style: normal;
 }
 
-.header-logo:hover,
-.header-logo:focus {
-  color: #404bbf;
-}
-.contact-email:hover,
-.contact-email:focus {
+.contact-tel-email:hover,
+.contact-tel-email:focus {
   background-color: #404bbf;
-  color: #404bbf;
-}
-
-.contact-tel:hover,
-.contact-tel:focus {
-  background-color: #404bbf;
-  color: #404bbf;
-}
-
-.nav-content {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:  #434455;
-  hover
-}
-
-.nav-content:hover{
-  color: #404bbf;
-}
-.nav-content:focus{
   color: #404bbf;
 }
 
 /* SECTION-1 */
-.hero{
+.hero {
   background-color: #2e2f42;
   font-family: "Roboto", sans-serif;
 }
-.hero-content{
+.hero-content {
   font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
-.hero-button{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
-.hero-button{
-background-color:#4d5ae5;
+.hero-button {
+  background-color: #4d5ae5;
 }
 
-.hero-button:hover{
-  background-color: #404BBF;
+.hero-button:hover {
+  background-color: #404bbf;
 }
-.hero-button:focus{
-  background-color: #404BBF;
+.hero-button:focus {
+  background-color: #404bbf;
 }
