@@ -25,7 +25,7 @@
 /* styles */
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -33,6 +33,7 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+
 
 ul {
   list-style-type: none;
@@ -98,8 +99,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: underline;
   font-style: normal;
+  text-decoration: none;
+
+.contact-tel-email {
+  color: #434455;
+  text-decoration: none;
 }
 
 .contact-tel-email:hover,
@@ -137,4 +142,67 @@ button {
 }
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+/* section-2 */
+
+.feauturtes{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feauturtes-main-content{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.feauturtes-sec-content{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* section-3 */
+
+.our-team{
+  background-color: #f4f4fd;
+}
+
+.o-t-main{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.o-t-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.o-t-list{
+  background-color: #ffffff;
+}
+
+.o-t-dev{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
