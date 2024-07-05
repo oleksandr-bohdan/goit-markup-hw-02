@@ -113,7 +113,6 @@ button {
 /* SECTION-1 */
 .hero {
   background-color: #2e2f42;
-  font-family: "Roboto", sans-serif;
 }
 .hero-content {
   font-weight: 700;
@@ -250,6 +249,7 @@ button {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
