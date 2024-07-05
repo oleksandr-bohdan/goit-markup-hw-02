@@ -146,6 +146,15 @@ button {
 
 /* section-2 */
 
+.zaholovok {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
 .feauturtes {
   font-weight: 500;
   font-size: 20px;
@@ -185,7 +194,7 @@ button {
   text-transform: capitalize;
 }
 
-.o-t-title {
+.o-t-titl {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -204,6 +213,37 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section-4 */
+
+.our-portfolio {
+}
+
+.o-p-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.o-p-list {
+}
+.o-p-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.o-p-dev {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
