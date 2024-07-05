@@ -23,6 +23,7 @@
   font-style: normal;
 } */
 /* styles */
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -102,7 +103,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:  #434455;
   hover
 }
 
@@ -134,5 +135,5 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 .hero-button{
-  
+background-color:#4d5ae5;
 }
